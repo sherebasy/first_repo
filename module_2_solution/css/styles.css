@@ -29,7 +29,6 @@ p {
  	float: left;
  	border: 1px solid black;
  	width: 33.3%;
- 	position: relative;
  	margin:5px;
 	height: 100%;
  }
