@@ -23,51 +23,9 @@ p {
     margin: 50px 10px 10px 10px;
     width: 90%;
 }
-.col-lg-3, .col-md-6, .col-md-12, .col
+.col-lg-3, .col-md-6, .col-md-12, .col-sd
 	{
-		background-color:#D3D3D3;
-		margin:5px;
-		border: 1px solid black;
-
-	}
-
-
-	@media (min-width: 992px)
-	{
-		.col-lg-3
-		{
-			float: left;
-			width: 32%;
-			height: 100%;
-
-		}	
-	}
-
-	@media(min-width:768px) and (max-width: 991px)
-	{
-		.col-md-6, .col-md-12
-		{
-			float:left;
-		
-
-		}
-
-		.col-md-6
-		{
-			width: 48%;
-			margin:5px;
-			height: 100%;
-		}
-		.col-md-12
-		{
-			width:98%;
-			margin-top: 5px;
-			height: 100%;
-		}
-}
-.col-lg-3, .col-md-6, .col-md-12, .col
-	{
-		background-color:#D3D3D3;
+		background-color:blue;
 		margin:5px;
 		border: 1px solid black;
 
