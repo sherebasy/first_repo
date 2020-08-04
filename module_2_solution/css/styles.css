@@ -20,16 +20,17 @@ h1 {
     border: 1px solid black;
 }
 p {
-    margin: 50px 10px 10px 10px;
+    margin: 60px 10px 10px 10px;
     width: 90%;
 }
 /* Desktop version */
 @media(min-width: 992px){
  .col-ld-4{
  	float: left;
- 	border: 1px solid black;
- 	width: 32%;
- 	margin:5px;
+  	border: 1px solid black;
+  	width: 32%;
+  	margin: 5px;
+	height: 100%;
  }
 }
 
