@@ -35,21 +35,27 @@ p {
 
 
 /* Tablet version */
-@media(min-width: 768px) and (max-width: 991px){
- .col-md-6{
-  	float: left;
-  	border: 1px solid black;
-  	width: 48%;
-  	margin: 5px;
-	/*height: 100%;*/
-  }
- .col-md-12{
- 	float: left;
-  	border: 1px solid black;
-  	width: 98%;
-  	margin: 5px;
-	height: 100%;
- }
+@media(min-width:768px) and (max-width: 991px)
+	{
+		.col-md-6, .col-md-12
+		{
+			float:left;
+		
+
+		}
+
+		.col-md-6
+		{
+			width: 48%;
+			margin:5px;
+			height: 100%;
+		}
+		.col-md-12
+		{
+			width:98%;
+			margin-top: 5px;
+			height: 100%;
+		}
 }
 
 /* Mobile version */
