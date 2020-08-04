@@ -28,9 +28,8 @@ p {
  .col-ld-4{
  	float: left;
  	border: 1px solid black;
- 	width: 33.3%;
+ 	width: 32%;
  	margin:5px;
-	height: 100%;
  }
 }
 
