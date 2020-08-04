@@ -24,18 +24,14 @@ p {
     width: 90%;
 }
 /* Desktop version */
-@media (min-width: 992px)
-	{
-		.col-ld-3
-		{
-			float: left;
-			width: 32%;
-			height: 100%;
-		        margin:5px;
-		        border: 1px solid black;
-
-		}	
-	}
+@media (min-width: 992px){
+.col-ld-3{
+	float: left;
+	width: 32%;
+	margin:5px;
+	border: 1px solid black;
+ }	
+}
 
 
 /* Tablet version */
