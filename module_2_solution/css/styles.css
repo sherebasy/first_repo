@@ -65,7 +65,7 @@
 	 width:  90%;
 	}
 
-    .col-ld-3, .col-md-6, .col-md-12, .col-sd
+    .col-ld-4, .col-md-6, .col-md-12, .col-sd
 	{
 		background-color:#D3D3D3;
 		margin:5px;
@@ -76,7 +76,7 @@
 
 	@media (min-width: 992px)
 	{
-		.col-ld-3
+		.col-ld-4
 		{
 			float: left;
 			width: 32%;
